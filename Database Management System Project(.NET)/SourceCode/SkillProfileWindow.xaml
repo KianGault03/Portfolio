@@ -1,0 +1,73 @@
+﻿<Window x:Class="SimplyRugbySystem_KG___Version_1._0.SkillProfileWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimplyRugbySystem_KG___Version_1._0"
+        mc:Ignorable="d"
+        Title="SkillProfileWindow" Height="652" Width="1439">
+    <Grid HorizontalAlignment="Center" Width="1439" Margin="0,0,0,-6">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <ListView x:Name="listItems" Margin="25,32,140,0" Height="195" VerticalAlignment="Top" Background="#FFD6D4D4">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="SRU" Width="50" DisplayMemberBinding="{Binding SRU}" />
+                    <GridViewColumn Header="Player Name" Width="120" DisplayMemberBinding="{Binding Name}"/>
+                    <GridViewColumn Header="Passing: Standard" Width="100" DisplayMemberBinding="{Binding PassingStandard}"/>
+                    <GridViewColumn Header="Passing: Spin" Width="100" DisplayMemberBinding="{Binding PassingSpin}"/>
+                    <GridViewColumn Header="Passing: Pop" Width="100" DisplayMemberBinding="{Binding PassingPop}"/>
+                    <GridViewColumn Header="Tackling: Front" Width="100" DisplayMemberBinding="{Binding TacklingFront }"/>
+                    <GridViewColumn Header="Tackling: Rear" Width="100" DisplayMemberBinding="{Binding TacklingRear}"/>
+                    <GridViewColumn Header="Tackling: Side" Width="100" DisplayMemberBinding="{Binding TacklingSide}"/>
+                    <GridViewColumn Header="Tackling: Scrabble" Width="100" DisplayMemberBinding="{Binding TacklingScrabble}"/>
+                    <GridViewColumn Header="Kicking: Drop" Width="100" DisplayMemberBinding="{Binding KickingDrop}"/>
+                    <GridViewColumn Header="Kicking: Punt" Width="100" DisplayMemberBinding="{Binding KickingPunt}"/>
+                    <GridViewColumn Header="Kicking: Grubber" Width="100" DisplayMemberBinding="{Binding KickingGrubber}"/>
+                    <GridViewColumn Header="Kicking: Goal" Width="100" DisplayMemberBinding="{Binding KickingGoal}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Content="Passing: Spin" HorizontalAlignment="Left" Margin="17,362,0,0" VerticalAlignment="Top" FontSize="14" RenderTransformOrigin="0.545,1.469"/>
+        <Label Content="Passing: Pop" HorizontalAlignment="Left" Margin="20,407,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Button x:Name="btn_UpdateRecord" Content="Update Skill" HorizontalAlignment="Left" Margin="25,471,0,0" VerticalAlignment="Top" Width="118"  Height="36" FontSize="14" Click="btn_UpdateRecord_Click"/>
+        <Label Content="Passing: Standard" HorizontalAlignment="Left" Margin="6,317,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Button x:Name="btn_Unselect" Content="Unselect Item" HorizontalAlignment="Left" Margin="1147,229,0,0" VerticalAlignment="Top" Width="128" Click="btn_Unselect_Click" FontSize="16"/>
+        <Label Content="Search for User ID" HorizontalAlignment="Left" Margin="25,230,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox x:Name="txt_Search" HorizontalAlignment="Left" Margin="155,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <Button x:Name="btn_Search" Content="Search" HorizontalAlignment="Left" Margin="296,235,0,0" VerticalAlignment="Top" Width="70" Click="btn_Search_Click" />
+        <Button x:Name="btn_PlayerDetailsWindow" Content="Player Records" HorizontalAlignment="Left" Margin="1304,48,0,0" VerticalAlignment="Top" Click="btn_PlayerDetailsWindow_Click" Width="116" Height="40" FontSize="16"/>
+        <Label Content="Tackling: Front" HorizontalAlignment="Left" Margin="225,312,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Tackling: Rear" HorizontalAlignment="Left" Margin="228,345,0,0" VerticalAlignment="Top" FontSize="14" RenderTransformOrigin="0.495,0.075"/>
+        <Label Content="Tackling: Side" HorizontalAlignment="Left" Margin="228,382,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Tackling: Scrabble" HorizontalAlignment="Left" Margin="215,424,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Kicking: Drop" HorizontalAlignment="Left" Margin="416,311,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Kicking: Punt" HorizontalAlignment="Left" Margin="419,345,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Kicking: Grubber" HorizontalAlignment="Left" Margin="408,387,0,0" VerticalAlignment="Top" FontSize="14" RenderTransformOrigin="0.514,0.473"/>
+        <Label Content="Kicking: Goal" HorizontalAlignment="Left" Margin="419,420,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Current Team: " HorizontalAlignment="Left" Margin="25,3,0,0" VerticalAlignment="Top" FontSize="14" Foreground="White"/>
+        <TextBlock x:Name="txtblk_CurrentTeam" HorizontalAlignment="Left" Margin="124,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" FontSize="14" Foreground="White"/>
+        <ComboBox x:Name="comboBox_Standard" Text="{Binding ElementName=listItems, Path=SelectedItem.PassingStandard}" HorizontalAlignment="Left" Margin="129,322,0,0" VerticalAlignment="Top" Width="39" RenderTransformOrigin="0.462,0.457"/>
+        <ComboBox x:Name="comboBox_Spin" Text="{Binding ElementName=listItems, Path=SelectedItem.PassingSpin}" HorizontalAlignment="Left" Margin="129,366,0,0" VerticalAlignment="Top" Width="39" RenderTransformOrigin="0.538,0.548"/>
+        <ComboBox x:Name="comboBox_Pop" Text="{Binding ElementName=listItems, Path=SelectedItem.PassingPop}" HorizontalAlignment="Left" Margin="129,411,0,0" VerticalAlignment="Top" Width="39"/>
+        <ComboBox x:Name="comboBox_Front" Text="{Binding ElementName=listItems, Path=SelectedItem.TacklingFront}" HorizontalAlignment="Left" Margin="346,315,0,0" VerticalAlignment="Top" Width="39"/>
+        <ComboBox x:Name="comboBox_Rear" Text="{Binding ElementName=listItems, Path=SelectedItem.TacklingRear}" HorizontalAlignment="Left" Margin="346,346,0,0" VerticalAlignment="Top" Width="39"/>
+        <ComboBox x:Name="comboBox_Side" Text="{Binding ElementName=listItems, Path=SelectedItem.TacklingSide}" HorizontalAlignment="Left" Margin="346,385,0,0" VerticalAlignment="Top" Width="39"/>
+        <ComboBox x:Name="comboBox_Scrabble" Text="{Binding ElementName=listItems, Path=SelectedItem.TacklingScrabble}" HorizontalAlignment="Left" Margin="346,427,0,0" VerticalAlignment="Top" Width="39"/>
+        <ComboBox x:Name="comboBox_Drop" Text="{Binding ElementName=listItems, Path=SelectedItem.KickingDrop}" HorizontalAlignment="Left" Margin="524,311,0,0" VerticalAlignment="Top" Width="39"/>
+        <ComboBox x:Name="comboBox_Punt" Text="{Binding ElementName=listItems, Path=SelectedItem.KickingPunt}" HorizontalAlignment="Left" Margin="525,347,0,0" VerticalAlignment="Top" Width="39"/>
+        <ComboBox x:Name="comboBox_Grubber" Text="{Binding ElementName=listItems, Path=SelectedItem.KickingGrubber}" HorizontalAlignment="Left" Margin="524,390,0,0" VerticalAlignment="Top" Width="40"/>
+        <ComboBox x:Name="comboBox_Goal" Text="{Binding ElementName=listItems, Path=SelectedItem.KickingGoal}" HorizontalAlignment="Left" Margin="524,424,0,0" VerticalAlignment="Top" Width="40"/>
+        <CheckBox x:Name="checkBox_Juniors" Content="Junior Squad" HorizontalAlignment="Left" Margin="452,234,0,0" VerticalAlignment="Top" Checked="checkBox_Juniors_Checked" FontSize="16"/>
+        <CheckBox x:Name="checkBox_Under18s" Content="Under 18s Squad" HorizontalAlignment="Left" Margin="579,234,0,0" VerticalAlignment="Top" Checked="checkBox_Under18s_Checked" FontSize="16"/>
+        <CheckBox x:Name="checkBox_18Plus" Content="18 -20 Squad" HorizontalAlignment="Left" Margin="725,235,0,0" VerticalAlignment="Top" Checked="checkBox_18Plus_Checked" FontSize="16"/>
+        <CheckBox x:Name="checkBox_21Plus" Content="21+ Squad" HorizontalAlignment="Left" Margin="858,234,0,0" VerticalAlignment="Top" Checked="checkBox_21Plus_Checked" FontSize="16"/>
+        <Button x:Name="btn_LogOut" Content="log Out" HorizontalAlignment="Left" Margin="1304,111,0,0" VerticalAlignment="Top" FontSize="16" Width="116" Height="36" Click="btn_LogOut_Click"/>
+        <Image HorizontalAlignment="Left" Height="243" Margin="961,339,0,0" VerticalAlignment="Top" Width="368" Source="/Simply Rugby Logo.png"/>
+
+    </Grid>
+</Window>
