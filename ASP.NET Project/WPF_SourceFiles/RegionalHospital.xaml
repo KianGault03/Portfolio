@@ -1,0 +1,63 @@
+﻿<Window x:Class="KwikMedicalUI_WPF.RegionalHospital"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Regional Hospital Staff Interface" Height="700" Width="600" ResizeMode="CanResize" WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Title -->
+        <TextBlock Grid.Row="0" Text="Regional Hospital Staff Interface" 
+                   FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20" />
+
+        <!-- Main Content Area -->
+        <StackPanel Grid.Row="1" Margin="10">
+            <!-- Patient Information Section -->
+            <GroupBox Header="Patient Information" Margin="0,0,0,20">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Name:" FontWeight="Bold" />
+                    <TextBox x:Name="txt_PatientName" IsReadOnly="True" Background="LightGray" />
+
+                    <TextBlock Text="NHS CHI Num:" FontWeight="Bold" Margin="0,10,0,0" />
+                    <TextBox x:Name="txt_PatientCHI" IsReadOnly="True" Background="LightGray" />
+
+                    <TextBlock Text="Address:" FontWeight="Bold" Margin="0,10,0,0" />
+                    <TextBox x:Name="txt_PatientAddress" IsReadOnly="True" Background="LightGray" />
+
+                    <TextBlock Text="Condition:" FontWeight="Bold" Margin="0,10,0,0" />
+                    <TextBox x:Name="txt_PatientCondition" IsReadOnly="True" Background="LightGray" />
+                </StackPanel>
+            </GroupBox>
+
+            <!-- Ambulance Crew Response Section -->
+            <GroupBox Header="Ambulance Crew Response" Margin="0,0,0,20">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Who:" FontWeight="Bold" />
+                    <TextBox x:Name="txt_ResponseWho" IsReadOnly="True" Background="LightGray" />
+
+                    <TextBlock Text="What:" FontWeight="Bold" Margin="0,10,0,0" />
+                    <TextBox x:Name="txt_ResponseWhat" IsReadOnly="True" Background="LightGray" />
+
+                    <TextBlock Text="When:" FontWeight="Bold" Margin="0,10,0,0" />
+                    <TextBox x:Name="txt_ResponseWhen" IsReadOnly="True" Background="LightGray" />
+
+                    <TextBlock Text="Where:" FontWeight="Bold" Margin="0,10,0,0" />
+                    <TextBox x:Name="txt_ResponseWhere" IsReadOnly="True" Background="LightGray" />
+                </StackPanel>
+            </GroupBox>
+
+            <!-- Actions Section -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+                <Button x:Name="btn_Confirm" Content="Confirm Patient Received" 
+                        Width="200" Height="40" Margin="0,0,10,0" Click="btn_Confirm_Click" />
+                <Button x:Name="btn_Close" Content="Close" 
+                        Width="100" Height="40" Click="btn_Close_Click" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
+
+
