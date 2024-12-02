@@ -68,7 +68,7 @@ Welcome to my portfolio repository! This repository showcases five of my most si
 
 ## How to Use This Repository
 1. Browse through the individual project folders to explore their source code.
-2. Each project contains its own documentation with setup instructions and details about implementation.
+2. Each project contains its own documentation with details about implementation.
 
 ---
 ## About Me
