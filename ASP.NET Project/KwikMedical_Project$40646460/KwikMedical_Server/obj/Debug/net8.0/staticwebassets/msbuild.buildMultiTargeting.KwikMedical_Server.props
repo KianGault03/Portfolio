@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\KwikMedical_Server.props" />
+</Project>

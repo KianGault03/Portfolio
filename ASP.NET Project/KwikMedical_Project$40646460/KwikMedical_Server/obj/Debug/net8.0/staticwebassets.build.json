@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "M7iB91sgO7AlQgOtIsHJKwoh/AOoZH7+2qUJHULgzlQ=",
+  "Source": "KwikMedical_Server",
+  "BasePath": "_content/KwikMedical_Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

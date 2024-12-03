@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "KwikMedical",
+    "Projects": [
+      {
+        "Path": "KwikMedical_Server\\KwikMedical_Server.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      },
+      {
+        "Path": "KwikMedicalUI_WPF\\KwikMedicalUI_WPF.csproj",
+        "Action": "Start",
+        "DebugTarget": "KwikMedicalUI_WPF"
+      }
+    ]
+  }
+]
