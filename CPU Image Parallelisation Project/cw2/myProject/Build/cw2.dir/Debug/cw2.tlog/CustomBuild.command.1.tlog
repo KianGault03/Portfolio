@@ -1,0 +1,10 @@
+^C:\USERS\KIANG\ONEDRIVE\DESKTOP\NAPIER 4TH YEAR\CONCURRENT AND PARALLEL SYSTEMS\COURSEWORK_2\CW2\MYPROJECT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/kiang/OneDrive/Desktop/Napier 4th Year/Concurrent And Parallel Systems/Coursework_2/cw2/myProject" "-BC:/Users/kiang/OneDrive/Desktop/Napier 4th Year/Concurrent And Parallel Systems/Coursework_2/cw2/myProject/Build" --check-stamp-file "C:/Users/kiang/OneDrive/Desktop/Napier 4th Year/Concurrent And Parallel Systems/Coursework_2/cw2/myProject/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

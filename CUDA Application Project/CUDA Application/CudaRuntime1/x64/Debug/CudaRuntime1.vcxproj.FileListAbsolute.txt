@@ -1,0 +1,2 @@
+C:\Users\kiang\OneDrive\Desktop\Documents\Napier 4th Year\Concurrent And Pararel Systems\Labratory\CUDACoursework1KG\CudaRuntime1\x64\Debug\SET10108_CW1_SOURCE_CODE.exe
+C:\Users\kiang\OneDrive\Desktop\Documents\Napier 4th Year\Concurrent And Pararel Systems\Coursework_1\CUDACoursework1KG\CudaRuntime1\x64\Debug\SET10108_CW1_SOURCE_CODE.exe
