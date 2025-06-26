@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ToKFsfLao0RcfIhKFocRu9UhrlpX7B0BnGA2p5bf1F94sg/SHvlKHYItz++XjuULuH9sHsNpY6MBfRohCGGL2g==",
+  "dgSpecHash": "do7CPd3wBQ8=",
   "success": true,
-  "projectFilePath": "D:\\HND - Old Work\\College Work\\Graded Unit\\Development\\SimplyRugbySystem_KG\\SimplyRugbySystem_KG - Version 1.0\\SimplyRugbySystem_KG - Version 1.0.csproj",
+  "projectFilePath": "C:\\Users\\kiang\\OneDrive\\Desktop\\Portfolio\\Database Management System Project(.NET)\\Development\\SimplyRugbySystem_KG\\SimplyRugbySystem_KG - Version 1.0\\SimplyRugbySystem_KG - Version 1.0.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kiang\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.5\\microsoft.data.sqlite.core.7.0.5.nupkg.sha512",
     "C:\\Users\\kiang\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",

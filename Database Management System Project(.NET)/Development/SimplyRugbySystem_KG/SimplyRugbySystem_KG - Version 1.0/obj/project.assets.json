@@ -1194,11 +1194,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HND - Old Work\\College Work\\Graded Unit\\Development\\SimplyRugbySystem_KG\\SimplyRugbySystem_KG - Version 1.0\\SimplyRugbySystem_KG - Version 1.0.csproj",
+      "projectUniqueName": "C:\\Users\\kiang\\OneDrive\\Desktop\\Portfolio\\Database Management System Project(.NET)\\Development\\SimplyRugbySystem_KG\\SimplyRugbySystem_KG - Version 1.0\\SimplyRugbySystem_KG - Version 1.0.csproj",
       "projectName": "SimplyRugbySystem_KG - Version 1.0",
-      "projectPath": "D:\\HND - Old Work\\College Work\\Graded Unit\\Development\\SimplyRugbySystem_KG\\SimplyRugbySystem_KG - Version 1.0\\SimplyRugbySystem_KG - Version 1.0.csproj",
+      "projectPath": "C:\\Users\\kiang\\OneDrive\\Desktop\\Portfolio\\Database Management System Project(.NET)\\Development\\SimplyRugbySystem_KG\\SimplyRugbySystem_KG - Version 1.0\\SimplyRugbySystem_KG - Version 1.0.csproj",
       "packagesPath": "C:\\Users\\kiang\\.nuget\\packages\\",
-      "outputPath": "D:\\HND - Old Work\\College Work\\Graded Unit\\Development\\SimplyRugbySystem_KG\\SimplyRugbySystem_KG - Version 1.0\\obj\\",
+      "outputPath": "C:\\Users\\kiang\\OneDrive\\Desktop\\Portfolio\\Database Management System Project(.NET)\\Development\\SimplyRugbySystem_KG\\SimplyRugbySystem_KG - Version 1.0\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1213,7 +1213,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1226,7 +1225,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -1260,7 +1265,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

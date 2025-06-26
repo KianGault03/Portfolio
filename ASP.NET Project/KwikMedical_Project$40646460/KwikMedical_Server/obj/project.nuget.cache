@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XJ0kKLu7uJQ=",
+  "dgSpecHash": "EpO5bBIrAfY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kiang\\OneDrive\\Desktop\\Napier 4th Year\\Software Architecture\\Coursework\\KwikMedical_Project$40646460\\KwikMedical_Server\\KwikMedical_Server.csproj",
+  "projectFilePath": "C:\\Users\\kiang\\OneDrive\\Desktop\\Portfolio\\ASP.NET Project\\KwikMedical_Project$40646460\\KwikMedical_Server\\KwikMedical_Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kiang\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\kiang\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

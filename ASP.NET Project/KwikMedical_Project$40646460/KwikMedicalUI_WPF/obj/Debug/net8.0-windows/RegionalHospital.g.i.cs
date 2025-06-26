@@ -132,7 +132,7 @@ namespace KwikMedicalUI_WPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/KwikMedicalUI_WPF;V1.0.0.0;component/regionalhospital.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/KwikMedicalUI_WPF;component/regionalhospital.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\RegionalHospital.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

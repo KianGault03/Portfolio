@@ -124,7 +124,7 @@ namespace KwikMedicalUI_WPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/KwikMedicalUI_WPF;V1.0.0.0;component/ambulancephone.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/KwikMedicalUI_WPF;component/ambulancephone.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AmbulancePhone.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

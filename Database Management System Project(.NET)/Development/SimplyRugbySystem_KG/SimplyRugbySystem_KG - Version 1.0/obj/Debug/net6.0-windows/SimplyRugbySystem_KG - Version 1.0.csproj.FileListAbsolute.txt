@@ -390,3 +390,15 @@ D:\HND - Old Work\College Work\Graded Unit\Development\SimplyRugbySystem_KG\Simp
 D:\HND - Old Work\College Work\Graded Unit\Development\SimplyRugbySystem_KG\SimplyRugbySystem_KG - Version 1.0\obj\Debug\net6.0-windows\SimplyRugbySystem_KG - Version 1.0.pdb
 D:\HND - Old Work\College Work\Graded Unit\Development\SimplyRugbySystem_KG\SimplyRugbySystem_KG - Version 1.0\obj\Debug\net6.0-windows\SimplyRugbySystem_KG - Version 1.0.genruntimeconfig.cache
 D:\HND - Old Work\College Work\Graded Unit\Development\SimplyRugbySystem_KG\SimplyRugbySystem_KG - Version 1.0\obj\Debug\net6.0-windows\ref\SimplyRugbySystem_KG - Version 1.0.dll
+C:\Users\kiang\OneDrive\Desktop\Portfolio\Database Management System Project(.NET)\Development\SimplyRugbySystem_KG\SimplyRugbySystem_KG - Version 1.0\obj\Debug\net6.0-windows\SimplyRugbySystem_KG - Version 1.0.csproj.AssemblyReference.cache
+C:\Users\kiang\OneDrive\Desktop\Portfolio\Database Management System Project(.NET)\Development\SimplyRugbySystem_KG\SimplyRugbySystem_KG - Version 1.0\obj\Debug\net6.0-windows\EmailWindow.g.cs
+C:\Users\kiang\OneDrive\Desktop\Portfolio\Database Management System Project(.NET)\Development\SimplyRugbySystem_KG\SimplyRugbySystem_KG - Version 1.0\obj\Debug\net6.0-windows\HubWindow.g.cs
+C:\Users\kiang\OneDrive\Desktop\Portfolio\Database Management System Project(.NET)\Development\SimplyRugbySystem_KG\SimplyRugbySystem_KG - Version 1.0\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\kiang\OneDrive\Desktop\Portfolio\Database Management System Project(.NET)\Development\SimplyRugbySystem_KG\SimplyRugbySystem_KG - Version 1.0\obj\Debug\net6.0-windows\PlayerDetailsWindow.g.cs
+C:\Users\kiang\OneDrive\Desktop\Portfolio\Database Management System Project(.NET)\Development\SimplyRugbySystem_KG\SimplyRugbySystem_KG - Version 1.0\obj\Debug\net6.0-windows\SkillProfileWindow.g.cs
+C:\Users\kiang\OneDrive\Desktop\Portfolio\Database Management System Project(.NET)\Development\SimplyRugbySystem_KG\SimplyRugbySystem_KG - Version 1.0\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\kiang\OneDrive\Desktop\Portfolio\Database Management System Project(.NET)\Development\SimplyRugbySystem_KG\SimplyRugbySystem_KG - Version 1.0\obj\Debug\net6.0-windows\SimplyRugbySystem_KG - Version 1.0_MarkupCompile.cache
+C:\Users\kiang\OneDrive\Desktop\Portfolio\Database Management System Project(.NET)\Development\SimplyRugbySystem_KG\SimplyRugbySystem_KG - Version 1.0\obj\Debug\net6.0-windows\SimplyRugbySystem_KG - Version 1.0_MarkupCompile.lref
+C:\Users\kiang\OneDrive\Desktop\Portfolio\Database Management System Project(.NET)\Development\SimplyRugbySystem_KG\SimplyRugbySystem_KG - Version 1.0\obj\Debug\net6.0-windows\SimplyRugbySystem_KG - Version 1.0.dll
+C:\Users\kiang\OneDrive\Desktop\Portfolio\Database Management System Project(.NET)\Development\SimplyRugbySystem_KG\SimplyRugbySystem_KG - Version 1.0\obj\Debug\net6.0-windows\refint\SimplyRugbySystem_KG - Version 1.0.dll
+C:\Users\kiang\OneDrive\Desktop\Portfolio\Database Management System Project(.NET)\Development\SimplyRugbySystem_KG\SimplyRugbySystem_KG - Version 1.0\obj\Debug\net6.0-windows\SimplyRugbySystem_KG - Version 1.0.pdb

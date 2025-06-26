@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimplyRugbySystem_KG - Version 1.0")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94d44e29eb95385552137a0d4197d426f26ae487")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimplyRugbySystem_KG - Version 1.0")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimplyRugbySystem_KG - Version 1.0")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

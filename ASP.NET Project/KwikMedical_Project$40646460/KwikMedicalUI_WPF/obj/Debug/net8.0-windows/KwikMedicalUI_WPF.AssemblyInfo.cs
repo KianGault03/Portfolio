@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KwikMedicalUI_WPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94d44e29eb95385552137a0d4197d426f26ae487")]
 [assembly: System.Reflection.AssemblyProductAttribute("KwikMedicalUI_WPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KwikMedicalUI_WPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
